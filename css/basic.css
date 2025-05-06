@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root{
+--fontAdamina:"Adamina", serif;
+--fontIBM: "IBM Plex Mono", serif;
+}
+
+
 *{
     box-sizing: border-box;
 }
 
 body, html{
-    height: 100px;
+    height: 100%;
     overflow-x: hidden;
 }
 
@@ -27,4 +38,28 @@ ul, ol{
 
 img{
     max-width: 100%;
+   
 }
+
+
+
+
+.btn{
+    border-radius: 4px;
+    background-color:#f15525; ;
+    padding: 15px 30px;
+    border: none;
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: transform 1s ;
+    border-radius: 4px;
+    width: 250px;
+    height: 60px;
+    border-radius: 82px;
+}
+ 
